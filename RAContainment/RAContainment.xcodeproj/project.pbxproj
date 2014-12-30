@@ -83,11 +83,8 @@
 			children = (
 				BD5919DF1A4E817F000AAF13 /* AppDelegate.h */,
 				BD5919E01A4E817F000AAF13 /* AppDelegate.m */,
-				BD5919E21A4E817F000AAF13 /* ViewController.h */,
-				BD5919E31A4E817F000AAF13 /* ViewController.m */,
+				BDC5B9F51A52769400A691C9 /* View Controllers */,
 				BD5919E51A4E817F000AAF13 /* Main.storyboard */,
-				BD5919E81A4E817F000AAF13 /* Images.xcassets */,
-				BD5919EA1A4E817F000AAF13 /* LaunchScreen.xib */,
 				BD5919DB1A4E817F000AAF13 /* Supporting Files */,
 			);
 			path = RAContainment;
@@ -96,6 +93,8 @@
 		BD5919DB1A4E817F000AAF13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD5919E81A4E817F000AAF13 /* Images.xcassets */,
+				BD5919EA1A4E817F000AAF13 /* LaunchScreen.xib */,
 				BD5919DC1A4E817F000AAF13 /* Info.plist */,
 				BD5919DD1A4E817F000AAF13 /* main.m */,
 			);
@@ -117,6 +116,15 @@
 				BD5919F61A4E817F000AAF13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDC5B9F51A52769400A691C9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD5919E21A4E817F000AAF13 /* ViewController.h */,
+				BD5919E31A4E817F000AAF13 /* ViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +422,7 @@
 				BD5919FD1A4E817F000AAF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5919FE1A4E817F000AAF13 /* Build configuration list for PBXNativeTarget "RAContainmentTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				BD591A001A4E817F000AAF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
