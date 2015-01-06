@@ -19,6 +19,7 @@
     
     
     self.delegate = self;
+    self.modalPresentationStyle = UIModalPresentationCurrentContext;
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
