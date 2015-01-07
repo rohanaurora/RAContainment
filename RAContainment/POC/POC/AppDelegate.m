@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "POCViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,11 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    ViewController *vc = [ViewController new];
-    self.window.rootViewController = vc;
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    POCViewController *vc = [POCViewController new];
+    
+    self.window.rootViewController = vc;
+
     [self.window makeKeyAndVisible];
 
     return YES;

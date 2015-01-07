@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BDA84E0D1A5CFB8000C96CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E0C1A5CFB8000C96CF5 /* main.m */; };
 		BDA84E101A5CFB8000C96CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E0F1A5CFB8000C96CF5 /* AppDelegate.m */; };
-		BDA84E131A5CFB8000C96CF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E121A5CFB8000C96CF5 /* ViewController.m */; };
 		BDA84E161A5CFB8000C96CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E141A5CFB8000C96CF5 /* Main.storyboard */; };
 		BDA84E181A5CFB8000C96CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E171A5CFB8000C96CF5 /* Images.xcassets */; };
 		BDA84E1B1A5CFB8000C96CF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E191A5CFB8000C96CF5 /* LaunchScreen.xib */; };
 		BDA84E271A5CFB8000C96CF5 /* POCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E261A5CFB8000C96CF5 /* POCTests.m */; };
-		BDA84E3C1A5FA5DE00C96CF5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */; };
+		BDA84E441A5FB7EF00C96CF5 /* POCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E421A5FB7EF00C96CF5 /* POCViewController.m */; };
+		BDA84E451A5FB7EF00C96CF5 /* POCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E431A5FB7EF00C96CF5 /* POCViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +33,15 @@
 		BDA84E0C1A5CFB8000C96CF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDA84E0E1A5CFB8000C96CF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDA84E0F1A5CFB8000C96CF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDA84E111A5CFB8000C96CF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BDA84E121A5CFB8000C96CF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BDA84E151A5CFB8000C96CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDA84E171A5CFB8000C96CF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDA84E1A1A5CFB8000C96CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDA84E201A5CFB8000C96CF5 /* POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA84E251A5CFB8000C96CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA84E261A5CFB8000C96CF5 /* POCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCTests.m; sourceTree = "<group>"; };
-		BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BDA84E411A5FB7EF00C96CF5 /* POCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POCViewController.h; sourceTree = "<group>"; };
+		BDA84E421A5FB7EF00C96CF5 /* POCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POCViewController.m; sourceTree = "<group>"; };
+		BDA84E431A5FB7EF00C96CF5 /* POCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POCViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				BDA84E0E1A5CFB8000C96CF5 /* AppDelegate.h */,
 				BDA84E0F1A5CFB8000C96CF5 /* AppDelegate.m */,
-				BDA84E111A5CFB8000C96CF5 /* ViewController.h */,
-				BDA84E121A5CFB8000C96CF5 /* ViewController.m */,
-				BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */,
+				BDA84E411A5FB7EF00C96CF5 /* POCViewController.h */,
+				BDA84E421A5FB7EF00C96CF5 /* POCViewController.m */,
+				BDA84E431A5FB7EF00C96CF5 /* POCViewController.xib */,
 				BDA84E141A5CFB8000C96CF5 /* Main.storyboard */,
 				BDA84E171A5CFB8000C96CF5 /* Images.xcassets */,
 				BDA84E191A5CFB8000C96CF5 /* LaunchScreen.xib */,
@@ -204,8 +204,8 @@
 			files = (
 				BDA84E161A5CFB8000C96CF5 /* Main.storyboard in Resources */,
 				BDA84E1B1A5CFB8000C96CF5 /* LaunchScreen.xib in Resources */,
-				BDA84E3C1A5FA5DE00C96CF5 /* ViewController.xib in Resources */,
 				BDA84E181A5CFB8000C96CF5 /* Images.xcassets in Resources */,
+				BDA84E451A5FB7EF00C96CF5 /* POCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA84E131A5CFB8000C96CF5 /* ViewController.m in Sources */,
 				BDA84E101A5CFB8000C96CF5 /* AppDelegate.m in Sources */,
 				BDA84E0D1A5CFB8000C96CF5 /* main.m in Sources */,
+				BDA84E441A5FB7EF00C96CF5 /* POCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = POC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
