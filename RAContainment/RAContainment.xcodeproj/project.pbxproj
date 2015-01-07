@@ -26,6 +26,20 @@
 			remoteGlobalIDString = BD5919D71A4E817F000AAF13;
 			remoteInfo = RAContainment;
 		};
+		BDA84E351A5CFB8100C96CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDA84E071A5CFB8000C96CF5;
+			remoteInfo = POC;
+		};
+		BDA84E371A5CFB8100C96CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDA84E201A5CFB8000C96CF5;
+			remoteInfo = POCTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +54,7 @@
 		BD5919F11A4E817F000AAF13 /* RAContainmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAContainmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5919F61A4E817F000AAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5919F71A4E817F000AAF13 /* RAContainmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAContainmentTests.m; sourceTree = "<group>"; };
+		BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = POC.xcodeproj; path = POC/POC.xcodeproj; sourceTree = "<group>"; };
 		BDD5DE031A5887F90015EBC3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
 		BDD5DE041A5887F90015EBC3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		BDD5DE061A58884C0015EBC3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -72,6 +87,7 @@
 				BD5919DA1A4E817F000AAF13 /* RAContainment */,
 				BD5919F41A4E817F000AAF13 /* RAContainmentTests */,
 				BD5919D91A4E817F000AAF13 /* Products */,
+				BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +138,15 @@
 				BD5919F61A4E817F000AAF13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDA84E311A5CFB8000C96CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA84E361A5CFB8100C96CF5 /* POC.app */,
+				BDA84E381A5CFB8100C96CF5 /* POCTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BDC5B9F51A52769400A691C9 /* View Controllers */ = {
@@ -204,6 +229,12 @@
 			mainGroup = BD5919CF1A4E817F000AAF13;
 			productRefGroup = BD5919D91A4E817F000AAF13 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BDA84E311A5CFB8000C96CF5 /* Products */;
+					ProjectRef = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BD5919D71A4E817F000AAF13 /* RAContainment */,
@@ -211,6 +242,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BDA84E361A5CFB8100C96CF5 /* POC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = POC.app;
+			remoteRef = BDA84E351A5CFB8100C96CF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BDA84E381A5CFB8100C96CF5 /* POCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = POCTests.xctest;
+			remoteRef = BDA84E371A5CFB8100C96CF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BD5919D61A4E817F000AAF13 /* Resources */ = {
