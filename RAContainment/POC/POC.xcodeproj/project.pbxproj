@@ -14,6 +14,7 @@
 		BDA84E181A5CFB8000C96CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E171A5CFB8000C96CF5 /* Images.xcassets */; };
 		BDA84E1B1A5CFB8000C96CF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E191A5CFB8000C96CF5 /* LaunchScreen.xib */; };
 		BDA84E271A5CFB8000C96CF5 /* POCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA84E261A5CFB8000C96CF5 /* POCTests.m */; };
+		BDA84E3C1A5FA5DE00C96CF5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BDA84E201A5CFB8000C96CF5 /* POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA84E251A5CFB8000C96CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA84E261A5CFB8000C96CF5 /* POCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCTests.m; sourceTree = "<group>"; };
+		BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BDA84E0F1A5CFB8000C96CF5 /* AppDelegate.m */,
 				BDA84E111A5CFB8000C96CF5 /* ViewController.h */,
 				BDA84E121A5CFB8000C96CF5 /* ViewController.m */,
+				BDA84E3B1A5FA5DE00C96CF5 /* ViewController.xib */,
 				BDA84E141A5CFB8000C96CF5 /* Main.storyboard */,
 				BDA84E171A5CFB8000C96CF5 /* Images.xcassets */,
 				BDA84E191A5CFB8000C96CF5 /* LaunchScreen.xib */,
@@ -201,6 +204,7 @@
 			files = (
 				BDA84E161A5CFB8000C96CF5 /* Main.storyboard in Resources */,
 				BDA84E1B1A5CFB8000C96CF5 /* LaunchScreen.xib in Resources */,
+				BDA84E3C1A5FA5DE00C96CF5 /* ViewController.xib in Resources */,
 				BDA84E181A5CFB8000C96CF5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				BDA84E2C1A5CFB8000C96CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA84E2D1A5CFB8000C96CF5 /* Build configuration list for PBXNativeTarget "POCTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				BDA84E2F1A5CFB8000C96CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
