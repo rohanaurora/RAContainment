@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BD137EB01A6398DE0009A4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD137EAB1A6398DE0009A4AD /* RAContainment-POC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD137E821A6398DE0009A4AD;
+			remoteInfo = "RAContainment-POC";
+		};
+		BD137EB21A6398DE0009A4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD137EAB1A6398DE0009A4AD /* RAContainment-POC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD137E9B1A6398DE0009A4AD;
+			remoteInfo = "RAContainment-POCTests";
+		};
 		BD5919F21A4E817F000AAF13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BD5919D01A4E817F000AAF13 /* Project object */;
@@ -26,23 +40,10 @@
 			remoteGlobalIDString = BD5919D71A4E817F000AAF13;
 			remoteInfo = RAContainment;
 		};
-		BDA84E351A5CFB8100C96CF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BDA84E071A5CFB8000C96CF5;
-			remoteInfo = POC;
-		};
-		BDA84E371A5CFB8100C96CF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BDA84E201A5CFB8000C96CF5;
-			remoteInfo = POCTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD137EAB1A6398DE0009A4AD /* RAContainment-POC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "RAContainment-POC.xcodeproj"; path = "RAContainment-POC/RAContainment-POC.xcodeproj"; sourceTree = "<group>"; };
 		BD5919D81A4E817F000AAF13 /* RAContainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAContainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5919DC1A4E817F000AAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5919DD1A4E817F000AAF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		BD5919F11A4E817F000AAF13 /* RAContainmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAContainmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5919F61A4E817F000AAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5919F71A4E817F000AAF13 /* RAContainmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAContainmentTests.m; sourceTree = "<group>"; };
-		BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = POC.xcodeproj; path = POC/POC.xcodeproj; sourceTree = "<group>"; };
 		BDD5DE031A5887F90015EBC3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
 		BDD5DE041A5887F90015EBC3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		BDD5DE061A58884C0015EBC3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -81,13 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD137EAC1A6398DE0009A4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EB11A6398DE0009A4AD /* RAContainment-POC.app */,
+				BD137EB31A6398DE0009A4AD /* RAContainment-POCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BD5919CF1A4E817F000AAF13 = {
 			isa = PBXGroup;
 			children = (
 				BD5919DA1A4E817F000AAF13 /* RAContainment */,
 				BD5919F41A4E817F000AAF13 /* RAContainmentTests */,
 				BD5919D91A4E817F000AAF13 /* Products */,
-				BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */,
+				BD137EAB1A6398DE0009A4AD /* RAContainment-POC.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,15 +147,6 @@
 				BD5919F61A4E817F000AAF13 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BDA84E311A5CFB8000C96CF5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BDA84E361A5CFB8100C96CF5 /* POC.app */,
-				BDA84E381A5CFB8100C96CF5 /* POCTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BDC5B9F51A52769400A691C9 /* View Controllers */ = {
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = BDA84E311A5CFB8000C96CF5 /* Products */;
-					ProjectRef = BDA84E301A5CFB8000C96CF5 /* POC.xcodeproj */;
+					ProductGroup = BD137EAC1A6398DE0009A4AD /* Products */;
+					ProjectRef = BD137EAB1A6398DE0009A4AD /* RAContainment-POC.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -244,18 +244,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BDA84E361A5CFB8100C96CF5 /* POC.app */ = {
+		BD137EB11A6398DE0009A4AD /* RAContainment-POC.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = POC.app;
-			remoteRef = BDA84E351A5CFB8100C96CF5 /* PBXContainerItemProxy */;
+			path = "RAContainment-POC.app";
+			remoteRef = BD137EB01A6398DE0009A4AD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BDA84E381A5CFB8100C96CF5 /* POCTests.xctest */ = {
+		BD137EB31A6398DE0009A4AD /* RAContainment-POCTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = POCTests.xctest;
-			remoteRef = BDA84E371A5CFB8100C96CF5 /* PBXContainerItemProxy */;
+			path = "RAContainment-POCTests.xctest";
+			remoteRef = BD137EB21A6398DE0009A4AD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

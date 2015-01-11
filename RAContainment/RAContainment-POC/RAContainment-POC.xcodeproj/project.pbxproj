@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD137E881A6398DE0009A4AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137E871A6398DE0009A4AD /* main.m */; };
+		BD137E8B1A6398DE0009A4AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137E8A1A6398DE0009A4AD /* AppDelegate.m */; };
+		BD137E911A6398DE0009A4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD137E8F1A6398DE0009A4AD /* Main.storyboard */; };
+		BD137E931A6398DE0009A4AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD137E921A6398DE0009A4AD /* Images.xcassets */; };
+		BD137E961A6398DE0009A4AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137E941A6398DE0009A4AD /* LaunchScreen.xib */; };
+		BD137EA21A6398DE0009A4AD /* RAContainment_POCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137EA11A6398DE0009A4AD /* RAContainment_POCTests.m */; };
+		BD137EBC1A6398DE0009A4AD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137EBA1A6398DE0009A4AD /* RootViewController.m */; };
+		BD137EBD1A6398DE0009A4AD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137EBB1A6398DE0009A4AD /* RootViewController.xib */; };
+		BD137EC11A6398DE0009A4AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137EBF1A6398DE0009A4AD /* FirstViewController.m */; };
+		BD137EC21A6398DE0009A4AD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137EC01A6398DE0009A4AD /* FirstViewController.xib */; };
+		BD137ECC1A6398DE0009A4AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137ECA1A6398DE0009A4AD /* SecondViewController.m */; };
+		BD137ECD1A6398DE0009A4AD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137ECB1A6398DE0009A4AD /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD137E9C1A6398DE0009A4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD137E7A1A6398DE0009A4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD137E811A6398DE0009A4AD;
+			remoteInfo = "RAContainment-POC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD137E821A6398DE0009A4AD /* RAContainment-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAContainment-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD137E861A6398DE0009A4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD137E871A6398DE0009A4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD137E891A6398DE0009A4AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD137E8A1A6398DE0009A4AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD137E901A6398DE0009A4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD137E921A6398DE0009A4AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD137E951A6398DE0009A4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD137E9B1A6398DE0009A4AD /* RAContainment-POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAContainment-POCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD137EA01A6398DE0009A4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD137EA11A6398DE0009A4AD /* RAContainment_POCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAContainment_POCTests.m; sourceTree = "<group>"; };
+		BD137EB91A6398DE0009A4AD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BD137EBA1A6398DE0009A4AD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BD137EBB1A6398DE0009A4AD /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BD137EBE1A6398DE0009A4AD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD137EBF1A6398DE0009A4AD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD137EC01A6398DE0009A4AD /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		BD137EC91A6398DE0009A4AD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		BD137ECA1A6398DE0009A4AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		BD137ECB1A6398DE0009A4AD /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SecondViewController.xib; path = ../SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD137E7F1A6398DE0009A4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD137E981A6398DE0009A4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD137E791A6398DE0009A4AD = {
+			isa = PBXGroup;
+			children = (
+				BD137E841A6398DE0009A4AD /* RAContainment-POC */,
+				BD137E9E1A6398DE0009A4AD /* RAContainment-POCTests */,
+				BD137E831A6398DE0009A4AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD137E831A6398DE0009A4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD137E821A6398DE0009A4AD /* RAContainment-POC.app */,
+				BD137E9B1A6398DE0009A4AD /* RAContainment-POCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD137E841A6398DE0009A4AD /* RAContainment-POC */ = {
+			isa = PBXGroup;
+			children = (
+				BD137ED01A6398DE0009A4AD /* Delegate */,
+				BD137ECF1A6398DE0009A4AD /* Root VC */,
+				BD137ECE1A6398DE0009A4AD /* Second VC */,
+				BD137EC31A6398DE0009A4AD /* First VC */,
+				BD137E921A6398DE0009A4AD /* Images.xcassets */,
+				BD137E851A6398DE0009A4AD /* Supporting Files */,
+			);
+			path = "RAContainment-POC";
+			sourceTree = "<group>";
+		};
+		BD137E851A6398DE0009A4AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD137E8F1A6398DE0009A4AD /* Main.storyboard */,
+				BD137E941A6398DE0009A4AD /* LaunchScreen.xib */,
+				BD137E861A6398DE0009A4AD /* Info.plist */,
+				BD137E871A6398DE0009A4AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD137E9E1A6398DE0009A4AD /* RAContainment-POCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EA11A6398DE0009A4AD /* RAContainment_POCTests.m */,
+				BD137E9F1A6398DE0009A4AD /* Supporting Files */,
+			);
+			path = "RAContainment-POCTests";
+			sourceTree = "<group>";
+		};
+		BD137E9F1A6398DE0009A4AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EA01A6398DE0009A4AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD137EC31A6398DE0009A4AD /* First VC */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EBE1A6398DE0009A4AD /* FirstViewController.h */,
+				BD137EBF1A6398DE0009A4AD /* FirstViewController.m */,
+				BD137EC01A6398DE0009A4AD /* FirstViewController.xib */,
+			);
+			name = "First VC";
+			sourceTree = "<group>";
+		};
+		BD137ECE1A6398DE0009A4AD /* Second VC */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EC91A6398DE0009A4AD /* SecondViewController.h */,
+				BD137ECA1A6398DE0009A4AD /* SecondViewController.m */,
+				BD137ECB1A6398DE0009A4AD /* SecondViewController.xib */,
+			);
+			name = "Second VC";
+			sourceTree = "<group>";
+		};
+		BD137ECF1A6398DE0009A4AD /* Root VC */ = {
+			isa = PBXGroup;
+			children = (
+				BD137EB91A6398DE0009A4AD /* RootViewController.h */,
+				BD137EBA1A6398DE0009A4AD /* RootViewController.m */,
+				BD137EBB1A6398DE0009A4AD /* RootViewController.xib */,
+			);
+			name = "Root VC";
+			sourceTree = "<group>";
+		};
+		BD137ED01A6398DE0009A4AD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD137E891A6398DE0009A4AD /* AppDelegate.h */,
+				BD137E8A1A6398DE0009A4AD /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD137E811A6398DE0009A4AD /* RAContainment-POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD137EA51A6398DE0009A4AD /* Build configuration list for PBXNativeTarget "RAContainment-POC" */;
+			buildPhases = (
+				BD137E7E1A6398DE0009A4AD /* Sources */,
+				BD137E7F1A6398DE0009A4AD /* Frameworks */,
+				BD137E801A6398DE0009A4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAContainment-POC";
+			productName = "RAContainment-POC";
+			productReference = BD137E821A6398DE0009A4AD /* RAContainment-POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD137E9A1A6398DE0009A4AD /* RAContainment-POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD137EA81A6398DE0009A4AD /* Build configuration list for PBXNativeTarget "RAContainment-POCTests" */;
+			buildPhases = (
+				BD137E971A6398DE0009A4AD /* Sources */,
+				BD137E981A6398DE0009A4AD /* Frameworks */,
+				BD137E991A6398DE0009A4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD137E9D1A6398DE0009A4AD /* PBXTargetDependency */,
+			);
+			name = "RAContainment-POCTests";
+			productName = "RAContainment-POCTests";
+			productReference = BD137E9B1A6398DE0009A4AD /* RAContainment-POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD137E7A1A6398DE0009A4AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rohan Aurora";
+				TargetAttributes = {
+					BD137E811A6398DE0009A4AD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BD137E9A1A6398DE0009A4AD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BD137E811A6398DE0009A4AD;
+					};
+				};
+			};
+			buildConfigurationList = BD137E7D1A6398DE0009A4AD /* Build configuration list for PBXProject "RAContainment-POC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD137E791A6398DE0009A4AD;
+			productRefGroup = BD137E831A6398DE0009A4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD137E811A6398DE0009A4AD /* RAContainment-POC */,
+				BD137E9A1A6398DE0009A4AD /* RAContainment-POCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD137E801A6398DE0009A4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD137E911A6398DE0009A4AD /* Main.storyboard in Resources */,
+				BD137EC21A6398DE0009A4AD /* FirstViewController.xib in Resources */,
+				BD137ECD1A6398DE0009A4AD /* SecondViewController.xib in Resources */,
+				BD137E961A6398DE0009A4AD /* LaunchScreen.xib in Resources */,
+				BD137EBD1A6398DE0009A4AD /* RootViewController.xib in Resources */,
+				BD137E931A6398DE0009A4AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD137E991A6398DE0009A4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD137E7E1A6398DE0009A4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD137ECC1A6398DE0009A4AD /* SecondViewController.m in Sources */,
+				BD137E8B1A6398DE0009A4AD /* AppDelegate.m in Sources */,
+				BD137E881A6398DE0009A4AD /* main.m in Sources */,
+				BD137EBC1A6398DE0009A4AD /* RootViewController.m in Sources */,
+				BD137EC11A6398DE0009A4AD /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD137E971A6398DE0009A4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD137EA21A6398DE0009A4AD /* RAContainment_POCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD137E9D1A6398DE0009A4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD137E811A6398DE0009A4AD /* RAContainment-POC */;
+			targetProxy = BD137E9C1A6398DE0009A4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD137E8F1A6398DE0009A4AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD137E901A6398DE0009A4AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD137E941A6398DE0009A4AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD137E951A6398DE0009A4AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD137EA31A6398DE0009A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD137EA41A6398DE0009A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD137EA61A6398DE0009A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAContainment-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD137EA71A6398DE0009A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAContainment-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD137EA91A6398DE0009A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RAContainment-POCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAContainment-POC.app/RAContainment-POC";
+			};
+			name = Debug;
+		};
+		BD137EAA1A6398DE0009A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RAContainment-POCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAContainment-POC.app/RAContainment-POC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD137E7D1A6398DE0009A4AD /* Build configuration list for PBXProject "RAContainment-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD137EA31A6398DE0009A4AD /* Debug */,
+				BD137EA41A6398DE0009A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD137EA51A6398DE0009A4AD /* Build configuration list for PBXNativeTarget "RAContainment-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD137EA61A6398DE0009A4AD /* Debug */,
+				BD137EA71A6398DE0009A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD137EA81A6398DE0009A4AD /* Build configuration list for PBXNativeTarget "RAContainment-POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD137EA91A6398DE0009A4AD /* Debug */,
+				BD137EAA1A6398DE0009A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD137E7A1A6398DE0009A4AD /* Project object */;
+}
