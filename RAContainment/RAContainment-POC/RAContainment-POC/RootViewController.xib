@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
             <connections>
+                <outlet property="homeButton" destination="z7f-sA-biO" id="Sj2-ug-dy1"/>
                 <outlet property="rootView" destination="i5M-Pr-FkT" id="Viy-IL-mvb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -19,7 +20,11 @@
                     <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                     <items>
                         <barButtonItem width="100" style="plain" systemItem="fixedSpace" id="bS8-rf-ABa"/>
-                        <barButtonItem title="Home" id="z7f-sA-biO" userLabel="Home"/>
+                        <barButtonItem title="Home" id="z7f-sA-biO" userLabel="Home">
+                            <connections>
+                                <action selector="homeItem:" destination="-1" id="4cE-4R-XFr"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem width="200" style="plain" systemItem="fixedSpace" id="jSn-4a-jwN"/>
                         <barButtonItem title="First" id="Bfn-hP-SJE">
                             <connections>

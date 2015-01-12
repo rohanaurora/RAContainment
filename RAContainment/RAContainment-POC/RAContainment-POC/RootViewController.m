@@ -16,6 +16,7 @@
 
 @property (weak, nonatomic) UIViewController * currentChildViewController;
 @property (strong, nonatomic) IBOutlet UIView *rootView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *homeButton;
 
 
 @end
@@ -25,10 +26,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.homeButton.title = @"Home1";
+    [self.homeButton setImage:[UIImage imageNamed:@"airplane-20"]];
+
 }
 
 #pragma mark -
-#pragma mark - First Tab Click
+#pragma mark -  Tab Clicks
 #pragma mark -
 
 - (IBAction)firstDetail:(id)sender {
@@ -38,11 +43,6 @@
 
 }
 
-
-#pragma mark -
-#pragma mark - Second Tab Click
-#pragma mark -
-
 - (IBAction)secondDetail:(id)sender {
 
     SecondViewController *svc = [SecondViewController new];
@@ -50,6 +50,11 @@
 
 }
 
+- (IBAction)homeItem:(id)sender {
+    
+    [self removeCurrentChildViewController];
+    
+}
 
 #pragma mark -
 #pragma mark - Set Frames for VC
