@@ -29,7 +29,6 @@
     
     self.homeButton.title = @"Home1";
     [self.homeButton setImage:[UIImage imageNamed:@"airplane-20"]];
-
 }
 
 #pragma mark -
