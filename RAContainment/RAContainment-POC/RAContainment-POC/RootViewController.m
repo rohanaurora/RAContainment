@@ -37,14 +37,14 @@
 
 - (IBAction)firstDetail:(id)sender {
 
-    FirstViewController *fvc = [FirstViewController new];
+    FirstViewController *fvc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
     [self presentDetailController:fvc];
 
 }
 
 - (IBAction)secondDetail:(id)sender {
 
-    SecondViewController *svc = [SecondViewController new];
+    SecondViewController *svc = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     [self presentDetailController:svc];
 
 }
