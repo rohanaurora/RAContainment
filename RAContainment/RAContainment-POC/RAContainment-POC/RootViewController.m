@@ -27,7 +27,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.homeButton.title = @"Home1";
     [self.homeButton setImage:[UIImage imageNamed:@"airplane-20"]];
 }
 
@@ -55,41 +54,41 @@
     
 }
 
-#pragma mark -
-#pragma mark - Set Frames for VC
-#pragma mark -
-
- - (CGRect)updateFrames {
-    
-    CGRect detailFrame = CGRectMake(0, kToolbarHeight, self.rootView.frame.size.width, self.rootView.frame.size.height - (kToolbarHeight * 2));
-    return detailFrame;
-}
 
 #pragma mark -
 #pragma mark - Present New VC
 #pragma mark -
 
- - (void)presentDetailController:(UIViewController*)newVC {
+- (void)presentDetailController:(UIViewController*)newVC {
     
     // Remove the current child VC if any
-    if(self.currentChildViewController) {
-        
+    if(self.currentChildViewController)
+    {
         [self removeCurrentChildViewController];
     }
     
+    self.currentChildViewController = newVC;
+    
     // Add the new VC controller as child of the container
     [self addChildViewController:newVC];
-    newVC.view.frame = [self updateFrames];
     
     // Add the new controller's view to the Container's view and save a reference to the detail View Controller
     [self.rootView addSubview:newVC.view];
-    self.currentChildViewController = newVC;
+    
+    [self.rootView removeConstraints:self.rootView.constraints];
+    
+    [self.rootView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [newVC.view setTranslatesAutoresizingMaskIntoConstraints:NO];
+    
+    [self.rootView addConstraint:[NSLayoutConstraint constraintWithItem:newVC.view attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.rootView attribute:NSLayoutAttributeTop multiplier:1 constant:0]];
+    [self.rootView addConstraint:[NSLayoutConstraint constraintWithItem:newVC.view attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.rootView attribute:NSLayoutAttributeBottom multiplier:1 constant:0]];
+    [self.rootView addConstraint:[NSLayoutConstraint constraintWithItem:newVC.view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.rootView attribute:NSLayoutAttributeTrailing multiplier:1 constant:0]];
+    [self.rootView addConstraint:[NSLayoutConstraint constraintWithItem:newVC.view attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.rootView attribute:NSLayoutAttributeLeading multiplier:1 constant:0]];
     
     // Complete the add flow calling the function didMoveToParentViewController
     [newVC didMoveToParentViewController:self];
     
 }
-
 #pragma mark -
 #pragma mark - Remove Child VC
 #pragma mark -
