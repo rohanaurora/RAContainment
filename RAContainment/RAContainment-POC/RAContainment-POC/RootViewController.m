@@ -10,13 +10,11 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 
-#define kToolbarHeight 44.0
-
 @interface RootViewController ()
 
-@property (weak, nonatomic) UIViewController * currentChildViewController;
-@property (strong, nonatomic) IBOutlet UIView *rootView;
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *homeButton;
+@property (weak, nonatomic) UIViewController            * currentChildViewController;
+@property (strong, nonatomic) IBOutlet UIView           * rootView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem    * homeButton;
 
 
 @end
