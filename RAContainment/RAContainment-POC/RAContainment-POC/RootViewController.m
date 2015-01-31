@@ -25,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    // TODO
     [self.homeButton setImage:[UIImage imageNamed:@"airplane-20"]];
 }
 
