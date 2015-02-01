@@ -37,6 +37,7 @@
 
     FirstViewController *fvc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
     [self presentDetailController:fvc];
+    NSLog(@"First View");
 
 }
 
@@ -44,13 +45,15 @@
 
     SecondViewController *svc = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     [self presentDetailController:svc];
+    NSLog(@"Second View");
+
 
 }
 
 - (IBAction)homeItem:(id)sender {
     
     [self removeCurrentChildViewController];
-    
+    NSLog(@"Root View");
 }
 
 
