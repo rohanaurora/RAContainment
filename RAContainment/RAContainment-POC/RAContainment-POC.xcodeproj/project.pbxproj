@@ -19,6 +19,7 @@
 		BD137EC21A6398DE0009A4AD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137EC01A6398DE0009A4AD /* FirstViewController.xib */; };
 		BD137ECC1A6398DE0009A4AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD137ECA1A6398DE0009A4AD /* SecondViewController.m */; };
 		BD137ECD1A6398DE0009A4AD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD137ECB1A6398DE0009A4AD /* SecondViewController.xib */; };
+		BD7146131A8C7816005D81D7 /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BD7146121A8C7816005D81D7 /* Demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		BD137EC91A6398DE0009A4AD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
 		BD137ECA1A6398DE0009A4AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 		BD137ECB1A6398DE0009A4AD /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SecondViewController.xib; path = ../SecondViewController.xib; sourceTree = "<group>"; };
+		BD7146121A8C7816005D81D7 /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		BD137E851A6398DE0009A4AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD7146121A8C7816005D81D7 /* Demo.gif */,
 				BD137E8F1A6398DE0009A4AD /* Main.storyboard */,
 				BD137E941A6398DE0009A4AD /* LaunchScreen.xib */,
 				BD137E861A6398DE0009A4AD /* Info.plist */,
@@ -255,6 +258,7 @@
 				BD137ECD1A6398DE0009A4AD /* SecondViewController.xib in Resources */,
 				BD137E961A6398DE0009A4AD /* LaunchScreen.xib in Resources */,
 				BD137EBD1A6398DE0009A4AD /* RootViewController.xib in Resources */,
+				BD7146131A8C7816005D81D7 /* Demo.gif in Resources */,
 				BD137E931A6398DE0009A4AD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
